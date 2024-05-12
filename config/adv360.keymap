@@ -67,4 +67,14 @@
         &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
+    movement {
+      bindings = <
+        &trans &trans &trans &trans &trans &trans &trans                                                           &trans &trans &trans &trans &trans &trans &trans
+        &trans &trans &kp LC(LA(UP)) &trans &trans &trans  &none                                           &none &kp LA(LEFT) &kp END &kp HOME &kp LA(RIGHT)  &trans  &trans
+        &trans &kp LC(LA(LEFT)) &kp LC(LA(DOWN)) &kp LC(LA(RIGHT)) &kp LC(LA(ENTER)) &trans  &none        &trans &trans &trans &trans        &none &kp LEFT &kp DOWN &kp UP &kp RIGHT  &trans  &trans
+        &trans &trans &trans &kp LC(LA(C)) &trans &trans                      &trans &trans                     &kp RG(LEFT) &kp RG(DOWN) &kp RG(UP) &kp RG(RIGHT)  &trans  &trans
+        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
+      >;
+    };
+ };
 };
